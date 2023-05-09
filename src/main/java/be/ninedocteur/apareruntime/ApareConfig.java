@@ -14,7 +14,7 @@ public class ApareConfig {
     private JSONObject config;
 
     public ApareConfig() {
-
+        checkForConfig();
     }
 
     public void checkForConfig(){
